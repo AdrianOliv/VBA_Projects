@@ -15,6 +15,6 @@ Aqui utilizei o VBA para automatizar certas rotinas recorrentes no Microsoft Exc
 ## Updates
 Se possível, em breve pretendo separar cada função para armazenar de forma mais organizada e didática os conteúdos relacionados à linguagem.
 
-Por hora, se você está procurando material para aprendizado, recomendo o próprio material disponível.
+Por hora, se você está procurando material para aprendizado, recomendo o próprio material da Microsoft disponível no link abaixo:
 
 https://docs.microsoft.com/pt-br/office/vba/library-reference/concepts/getting-started-with-vba-in-office
