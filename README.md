@@ -2,7 +2,9 @@
 
 # VBA_Projects
 
-[![NPM](https://img.shields.io/npm/l/react?color=blue&style=for-the-badge)](https://github.com/AdrianOliv/VBA_Projects/blob/main/LICENSE)
+[![RepoSize](https://img.shields.io/github/repo-size/AdrianOliv/VBA_Projects?style=for-the-badge)](https://img.shields.io/github/repo-size/AdrianOliv/VBA_Projects?style=for-the-badge)
+[![License](https://img.shields.io/npm/l/react?color=blue&style=for-the-badge)](https://github.com/AdrianOliv/VBA_Projects/blob/main/LICENSE)
+[![LastCommit](https://img.shields.io/github/last-commit/AdrianOliv/VBA_Projects?style=for-the-badge)](https://img.shields.io/github/last-commit/AdrianOliv/VBA_Projects?style=for-the-badge)
 
 ### VBA Personal Projects (Projetos Pessoais)
 
