@@ -4,6 +4,7 @@ Sub l__SaldoProjetado()
     limpa_colunas
     formata_planilha
     ajustar
+    filtro
 
 End Sub
 
@@ -36,8 +37,6 @@ End Function
 Function limpa_colunas()
     '' limpar colunas desnecessarias
     
-    Cells.Find("Nº Pedido").EntireColumn.Delete
-    Cells.Find("Linha").EntireColumn.Delete
     Cells.Find("Cliente").EntireColumn.Delete
     Cells.Find("Rua").EntireColumn.Delete
     Cells.Find("Complemento").EntireColumn.Delete
@@ -107,4 +106,14 @@ Function ajustar()
     
     Cells.EntireColumn.AutoFit
     Cells.EntireRow.AutoFit
+End Function
+
+
+Function filtro()
+    '' Filtro AZ
+    
+    Cells.Find("Linha").Select
+    ActiveCell.CurrentRegion.Sort Key1:=Cells.Find("Linha"), Order1:=xlAscending, Header:=xlYes
+    Cells.Find("Nº Pedido").Select
+    ActiveCell.CurrentRegion.Sort Key1:=Cells.Find("Nº Pedido"), Order1:=xlAscending, Header:=xlYes
 End Function
