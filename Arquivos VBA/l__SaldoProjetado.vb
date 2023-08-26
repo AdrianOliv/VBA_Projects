@@ -1,7 +1,7 @@
 Sub l__SaldoProjetado()
     
-    formatacao
     limpa_colunas
+    formatacao
     formata_planilha
     ajustar
     filtro
