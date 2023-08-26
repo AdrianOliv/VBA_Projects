@@ -15,9 +15,9 @@ Sub l__Carteira_Online()
     For i = 1 To total
         Select Case i
             Case 1
-                formata_celulas
-            Case 2
                 exclui_colunas
+            Case 2
+                formata_celulas
             Case 3
                 reverte_colunas
             Case 4
@@ -35,8 +35,6 @@ Sub l__Carteira_Online()
         Progresso.Evolucao.Width = percent * largura
         Progresso.Valor = Round(percent * 100, 1) & "%"
     Next
-    
-    sleep (3)
     
     '' Libera atualização de tela para agilizar processo
     Application.ScreenUpdating = True
@@ -155,6 +153,7 @@ End Function
 
 Function sleep(x)
     '' cria um tempo de espera de x segundos
+    '' 26.08.23 - Função removida do programa principal
     
     newHour = Hour(Now())
     newMinute = Minute(Now())
