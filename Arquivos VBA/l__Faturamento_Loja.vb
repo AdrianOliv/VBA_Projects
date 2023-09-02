@@ -58,6 +58,7 @@ Function colunas()
     
     Cells.Find("Emp.").EntireColumn.Delete
     Cells.Find("Sér.").EntireColumn.Delete
+    Cells.Find("Doc. Pagto Unificado").EntireColumn.Delete
 End Function
 
 
